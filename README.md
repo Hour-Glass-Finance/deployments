@@ -6,7 +6,7 @@ The two main mining mechanism are `Swap Mining` and `LP Mining`
 
 ### Swap Mining
 
-`Swap Mining` allows users that use swap to balance the hourglass pool to receive `HOUR` rewards proportionally to their swap volume.
+`Swap Mining` allows users that use swap to balance the hourglass pool to receive `HOUR` rewards proportionally to their swap volume. Whether a swap is helping to balance of pool (i.e elligable for reward) is determined by the stateless and upgradable `SwapMiningRewardsCalc`.
 
 ### LP Mining
 
