@@ -27,6 +27,8 @@ The DAO `Treasury` receives token from `swapping fees` and `Vault`, and performs
 
 For example, the treasury receives `USDC` from the hourglass pool as swapping fee. It then sells half of the `USDC` for `HOUR`, and add to `USDC/HOUR LP`.
 
+---
+
 ![Alt text](diagram.png)
 
 ## Contract Addresses
