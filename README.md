@@ -30,4 +30,7 @@ For example, the treasury receives `USDC` from the hourglass pool as swapping fe
 ![Alt text](TODO: diagram)
 
 ## Contract Addresses
+
+Addresses are categorized by network ID.
+
 [address.js](address.js)
