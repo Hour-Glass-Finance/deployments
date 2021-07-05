@@ -2,31 +2,37 @@
 
 ## Rewards
 
-The two main mining mechanism are Volume Mining and LP Mining
+The two main mining mechanism are `Swap Mining` and `LP Mining`
 
-### Volume Mining
+### Swap Mining
 
-Volume Mining allows users that swap stable coins in the hourglass pool to receive HOUR rewards proportionally to their swap volume.
+`Swap Mining` allows users that use swap to balance the hourglass pool to receive `HOUR` rewards proportionally to their swap volume. Whether a swap is helping to balance of pool (i.e elligable for reward) is determined by the stateless and upgradable `SwapMiningRewardsCalc`.
 
 ### LP Mining
 
-LP mining allows users stake their LP tokens (e.g HOUR/USDC, hourUSD) to earn more HOUR.
-TODO: mint hourUSD
+LP mining allows users stake their LP tokens (e.g `HOUR/USDC`, `hourUSD`) to earn more `HOUR`.
 
 ### Vault
 
-All mined rewards enter the Vault. Users can choice to exit anytime they wish. Upon exit the following occurs:
+`HOUR` holder can enter `Vault` to earn governance right to the Hourglass protocol. All mined `HOUR` rewards enter the vault first by default upon claim. Users can choice to exit anytime they wish. 
+
+Upon exiting vault, a 10% exit fee is taken and distributed as following:
 - 2% of withdraw amount is burnt.
-- 4% is sent to DAO.
-- 4% is distributed to the rest of the Vault staking pool.
+- 4% is sent to DAO and becomes apart of `protocol controlled value (PCV)`.
+- 4% is distributed to the rest of the vault pool.
 
 ## DAO
 
-The DAO treasury contract receives token from the hourglass pool and vault, and performs buyback and add to LP.
+The DAO `Treasury` receives token from `swapping fees` and `Vault`, and performs buyback and add to LP.
 
-For example, the treasury receives USDC from the hourglass pool. It then sells half of the USDC for HOUR, and add to LP.
+For example, the treasury receives `USDC` from the hourglass pool as swapping fee. It then sells half of the `USDC` for `HOUR`, and add to `USDC/HOUR LP`.
 
-![Alt text](TODO: diagram)
+---
+
+![Alt text](diagram.png)
 
 ## Contract Addresses
+
+Addresses are categorized by network ID.
+
 [address.js](address.js)
