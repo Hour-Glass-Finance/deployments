@@ -8,7 +8,7 @@ module.exports = {
     "Vault": "0x6398F7BFd3EF61d2e56e0f7C5247D0B2808ce06A",
     "PoolUtils": "0x6C83C997d1D55aAe4DF5C42D8edf3B49529D4337",
     "RewardDistributor": "0x78a0F6F9A2204c93838475feF74034EA91Fc161f",
-    "RewardMinter": "0x72687395624d35f8E682EA7e17a1C87401A203a1",
+    "RewardMinter": "0xb1a8DBf453203D7Bf0cfc9836dC162c82e763bcE",
     "SwapMiningRewards": "0x931260eceAA0386c77D4F568A301bF82Fd596F7f",
     "Treasury": "0xcA9191e53b7cd2892050493f347190Cc21aeEf9B",
     "MultiStakingRewards_hourUSD": "0x504dF1009bA47F05E7dCf752a65c116397A35cA8",
