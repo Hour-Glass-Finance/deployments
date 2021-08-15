@@ -1,18 +1,18 @@
 module.exports = {
   "137": {
-    "HOUR": "0xd0db099Cb0325Fc390dfc5DBB586c147e3D0B42a",
+    "HOUR": "",
     // hourUSD is an ERC20 token and also the hourglasss usd pool
-    "hourUSD": "0x04C01D9ee546C1A89Be4197c1E51Df69d9D1463a",
-    "Converter": "0x294B3592b0dc1edE4e8638FE7062A4EC09380457",
-    "FeeDistributor": "0x92d43D83BE0f7139CF6FF976f1c7BD0408873402",
-    "Vault": "0x6398F7BFd3EF61d2e56e0f7C5247D0B2808ce06A",
-    "PoolUtils": "0x6C83C997d1D55aAe4DF5C42D8edf3B49529D4337",
-    "RewardDistributor": "0x78a0F6F9A2204c93838475feF74034EA91Fc161f",
-    "RewardMinter": "0xb1a8DBf453203D7Bf0cfc9836dC162c82e763bcE",
-    "SwapMiningRewards": "0x931260eceAA0386c77D4F568A301bF82Fd596F7f",
-    "Treasury": "0xcA9191e53b7cd2892050493f347190Cc21aeEf9B",
-    "MultiStakingRewards_hourUSD": "0x504dF1009bA47F05E7dCf752a65c116397A35cA8",
-    "MultiStakingRewards_HourUsdcSushiLp": "0xe9699039A5B3Ff91E23Ad503cE1d18e693d15bf1",
-    "USDC/HOUR SUSHI-LP": "0x83c000876Ffb4930dB38a3F4EF229e9a50F5c256"
+    "hourUSD": "0xAc85a24089f59f93C39b41FF3378EcF0d42819f1",
+    "Converter": "",
+    "FeeDistributor": "0x582970FDd11fDCaFb460830D2EC27A12A33c0887",
+    "Vault": "",
+    "PoolUtils": "0x4A1387A98C31571534391826AE2769F0C99fB40D",
+    "RewardDistributor": "",
+    "RewardMinter": "",
+    "SwapMiningRewards": "",
+    "Treasury": "",
+    "MultiStakingRewards_hourUSD": "",
+    "MultiStakingRewards_HourUsdcSushiLp": "",
+    "USDC/HOUR SUSHI-LP": ""
   }
 }
