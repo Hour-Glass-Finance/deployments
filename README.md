@@ -29,7 +29,7 @@ For example, the treasury receives `USDC` from the hourglass pool as swapping fe
 
 ---
 
-![Alt text](diagram.png)
+![Alt text](hourglassfinance.png)
 
 ## Contract Addresses
 
