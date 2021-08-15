@@ -1,6 +1,6 @@
 module.exports = {
   "137": {
-    "HOUR": "",
+    "HOUR": "0x3bBb3E3E4425343F8977d512324e91F18656e2FB",
     // hourUSD is an ERC20 token and also the hourglasss usd pool
     "hourUSD": "0xAc85a24089f59f93C39b41FF3378EcF0d42819f1",
     "Converter": "",
