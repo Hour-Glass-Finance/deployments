@@ -6,7 +6,7 @@ module.exports = {
     "Converter": "",
     "FeeDistributor": "0x582970FDd11fDCaFb460830D2EC27A12A33c0887",
     "Vault": "",
-    "PoolUtils": "0x4A1387A98C31571534391826AE2769F0C99fB40D",
+    "PoolUtils": "0xA60EA7Ae5D3A1564B0A7614ff1d95eACF0EFEFF8",
     "RewardDistributor": "",
     "RewardMinter": "",
     "SwapMiningRewards": "",
